@@ -1,3 +1,8 @@
+/* tyylikäs tausta */
+body {
+  background-color: #a19ac2;
+  font-family: Arial, sans-serif;
+}
 
     body {
         margin: 0;
@@ -33,10 +38,5 @@
         }
     }
 
-/* tyylikäs tausta */
-body {
-  background-color: #a19ac2;
-  font-family: Arial, sans-serif;
-}
 
 
