@@ -2,7 +2,9 @@
     body {
       background-color: #a19ac2;
         }
-     
+        p {
+         color: blue;
+       }
         h1 {
             font-size: 5em;
             font-family: serif;
