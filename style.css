@@ -1,14 +1,6 @@
        /* tyylikäs tausta */
     body {
       background-color: #a19ac2;
-     
-    }
-       
-        div {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
         }
      
         h1 {
