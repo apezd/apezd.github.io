@@ -4,7 +4,6 @@
      
     }
        
-     
         div {
             position: absolute;
             top: 50%;
@@ -17,7 +16,7 @@
             font-family: serif;
             color: transparent;
             text-align: center;
-            animation: effect 2s linear infinite;
+            animation: effect 1s linear infinite;
         }
      
         @keyframes effect {
