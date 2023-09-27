@@ -1,7 +1,10 @@
        /* tyylikäs tausta */
-       body {
-        background-color: #8f7f77;
-          }
+     
+        body {
+ background-image: url("background.jpg");
+       
+ background-color: #cccccc;
+}
   
          p {
     font-family: monospace;
