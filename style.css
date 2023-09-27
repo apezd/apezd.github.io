@@ -1,24 +1,40 @@
 
-     
-  
+@font-face {
+    font-family: Poppins-SemiBold;
+    src:url(Poppins-SemiBold.ttf)
+  }
          p {
-    font-family: monospace;
+        font-family: 'Poppins-SemiBold' ;
     font-size: 2em;
-    animation: color-change 3s infinite;
+    animation: color-change 5s infinite;
+    text-align: center;
   }
   
   @keyframes color-change {
-    0% { color: rgba(253, 2, 2, 0.945); }
-    100% { color: rgb(19, 16, 15); }
+    0% { color: rgb(245, 6, 6); }
+    100% { color: rgb(9, 255, 0); }
   }
 
      h1 {
-    font-family: monospace;
+    font-family: Poppins-SemiBold;
     font-size: 4em;
     animation: color-changee 5s infinite;
   }
   @keyframes color-changee {
-    0% { color: rgb(12, 8, 248); }
-    100% { color: rgb(50, 250, 0); }
+    0% { color: rgb(4, 21, 252); }
+    100% { color: rgb(250, 3, 3); }
   
+}
+
+ul {
+  list-style: none; 
+}
+
+ul li::before {
+  content: "\2022";  
+  color: red; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
 }
