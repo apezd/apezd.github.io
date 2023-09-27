@@ -10,9 +10,13 @@
     text-align: center;
   }
   
-  @keyframes color-change {
-    0% { color: rgb(245, 6, 6); }
-    100% { color: rgb(9, 255, 0); }
+   @keyframes cycleColors {
+  0% { color: red; }
+  25% { color: blue; }
+  50% { color: green; }
+  75% { color: orange; }
+  100% { color: red; }
+}
   }
 
      h1 {
