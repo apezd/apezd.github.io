@@ -1,27 +1,26 @@
        /* tyylikäs tausta */
-    body {
-      background-color: #a19ac2;
-        }
+       body {
+        background-color: #8f7f77;
+          }
+  
+         p {
+    font-family: monospace;
+    font-size: 2em;
+    animation: color-change 3s infinite;
+  }
+  
+  @keyframes color-change {
+    0% { color: rgb(241, 169, 14); }
+    100% { color: rgb(19, 16, 15); }
+  }
 
-       p {
-  font-family: monospace;
-  font-size: 3em;
-  animation: color-change 1s infinite;
-}
-
-@keyframes color-change {
-  0% { color: red; }
-  50% { color: blue; }
-  100% { color: red; }
-}
-   h1 {
-  font-family: monospace;
-  font-size: 3em;
-  animation: color-change 1s infinite;
-}
-
-@keyframes color-change {
-  0% { color: red; }
-  50% { color: blue; }
-  100% { color: red; }
+     h1 {
+    font-family: monospace;
+    font-size: 4em;
+    animation: color-changee 5s infinite;
+  }
+  @keyframes color-changee {
+    0% { color: rgb(241, 7, 7); }
+    100% { color: rgb(50, 250, 0); }
+  
 }
